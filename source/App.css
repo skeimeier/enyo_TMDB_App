@@ -2,6 +2,152 @@
 	Put anything you reference with "url()" in ../assets/
 	This way, you can minify your application, and just remove the "source" folder for production
 */
-.nice-padding {
-	padding: 15px;
+
+/*
+onyx color #010A28
+
+*/
+
+.center {
+  text-align: center;
 }
+
+.btn-link{
+	width: 50%;
+}
+
+.rechtsbuendig {
+	width: 16px;
+	height: 52px;
+	display: inline-block;
+
+	float: right;
+	/*visibility: hidden;*/
+}
+
+.spinner {
+	width: 35px;
+	height: 35px;
+}
+
+
+.splot-titel,
+.actors-titel,
+.title {
+  /*width: 410px;*/
+  width: inherit;
+  height: 20px;
+  color: black;
+
+  font-weight: bold;
+  text-align: left;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding-left: 7px;
+}
+.year, .filmtype {
+     padding-left:  7px;
+     color: #1A3669;
+}
+.file {
+     color: #1A3669;
+     padding-left:  7px;
+	 
+
+}
+.tmdbid {
+     padding-left:  7px;
+     font-size: 10pt;
+     text-align: left;
+     color: black;
+}
+.size {
+     padding-left:  7px;
+     font-size: 10pt;
+     text-align: center;
+     color: lightgreen;
+
+}
+.imdbRateing{
+     padding-left:  7px;
+     font-size: 10pt;
+     text-align: right;
+     color: yellow;
+
+}
+.nice-padding {
+	padding-left: 15px;
+}
+
+.repeater-sample {
+	padding:15px;
+}
+
+.repeater-sample-item {
+	height: 60px;
+	/*padding:4px;*/
+	padding-right: 20px;
+	margin:2px;
+	position:relative;
+	/*border:1px solid gray;*/
+	background-color: #ACCCF1;
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 100%);
+
+	
+}
+
+.repeater-sample-item-marked {
+	height: 60px;
+	/*padding:4px;*/
+	padding-right: 20px;
+	margin:2px;
+	margin-right: 20px;
+	position:relative;
+	/*border:1px solid gray;*/
+	background-color: #748DAE;
+	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 100%);
+	
+	
+}
+
+.repeater-poster-klein {
+	
+	height: 50px;
+	width: 40px;	
+}
+
+.repeater-zeiger-klein {
+	
+	/*width: 16px;*/
+	height: 60px;
+	/*display: inline-block;*/
+	/*float: right;*/
+position: absolute;
+top: 0;
+right: -36px;
+bottom: 0;
+	
+}
+.panel-poster {
+	height: 100%;
+	margin:auto; /* Required */
+	position:absolute; /* Required */
+	/* top:0; /* Aligns at the top */
+	left:0;right:0; /* Aligns horizontal center */
+	max-height:100%; /* images bigger than 175 px  */
+	max-width:100%;  /* will be shrinked to size */ 
+}
+
+
+
+/* set the width and some basic styling for each panel */
+.app-panels > * {
+    width: 33%;
+    background-color: #ACCCF1;
+    box-shadow: -6px -6px 6px rgba(0,0,0,0.3);
+}
+
+.checkBox {
+  padding-left: 36px;
+}
+
